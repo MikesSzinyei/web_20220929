@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background:url('../pics/bg-body.jpg')fixed;
+    background-size: cover;
+}
+.container{
+    max-width: 50%;
+    margin:0 auto;
+    background-color: white;
+}
+.container header{
+    background-image: url(../pics/bg-header.jpg);
+    height:200px;
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+    padding: 20px 60px;
+    background-size: cover;
+}
+nav{
+    background-color: #404040;
+    float:left;
+    padding-right: 20px;
+}
+nav ul{
+    list-style-type: none;
+    margin:25px;
+}
+nav ul li{
+    padding:10px 0px;
+    border-bottom: 1px dashed white;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 5px 0;
+    
+}
+nav ul li a:hover{
+    color:grey;
+}
+main{
+    float:right;
+    background-color:white;
+    padding:20px;
+}
+.jobbra{
+    float:right;
+    padding:70px 0px 20px 20px;
+}
+.balra{
+    float:left;
+    padding:10px 20px 20px 0px;
+}
+main h2{
+    font-size:35px;
+    font-weight:700;
+    background-color: darkgreen;
+    color:white;
+    display:inline;
+    padding:5px;
+    line-height:60px;
+}
+main p{
+    padding: 10px 0px 10px;
+    line-height: 120%;
+    color:#404040;
+}
+.content{
+    display:flex;
+}
+footer{
+    color:#404040;
+    font-size:14px;
+}
+footer a{
+    color: #404040;
+}
+.left{
+    float:left;
+    padding:25px 0px;
+}
+.right{
+    float:right;
+    padding:25px 0px;
+}
